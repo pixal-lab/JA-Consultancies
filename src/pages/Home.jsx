@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 
 const Home = () => {
@@ -64,9 +65,9 @@ const Home = () => {
                 </section>
 
                 <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-                    <a href="/consultancies" className="cta-button">Descubre cómo puedo ayudarte</a>
+                    <Link to="/consultancies" className="cta-button">Descubre cómo puedo ayudarte</Link>
                     <p style={{ marginTop: '1rem', color: 'var(--text-muted)' }}>
-                        O <a href="/cv" style={{ color: 'var(--accent)' }}>revisa mi trayectoria completa</a>
+                        O <Link to="/cv" style={{ color: 'var(--accent)' }}>revisa mi trayectoria completa</Link>
                     </p>
                 </div>
             </div>

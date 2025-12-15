@@ -14,7 +14,7 @@ const CV = () => {
                     <p className="body-text" style={{ marginBottom: '2rem' }}>
                         Para facilitar su archivo y revisión offline, puede descargar mi currículum completo en formato PDF.
                     </p>
-                    <a href="/cv.pdf" download="CV_Juan_Ahumada.pdf" className="cta-button">
+                    <a href={`${import.meta.env.BASE_URL}cv.pdf`} download="CV_Juan_Ahumada.pdf" className="cta-button">
                         📄 Descargar CV (PDF)
                     </a>
                 </div>
